@@ -1,0 +1,20 @@
+package gui;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import Model.Entites.Person;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.ComboBox;
+
+public class ViewController implements Initializable { 
+
+	@FXML
+	private ComboBox<Person> comboBox;
+	
+	@Override
+	public void initialize(URL arg0, ResourceBundle arg1) {
+		//Constraints.setTextFieldInterger(txtNumber1);		
+	}
+}

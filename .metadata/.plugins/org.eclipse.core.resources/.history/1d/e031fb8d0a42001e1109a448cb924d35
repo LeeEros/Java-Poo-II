@@ -1,0 +1,15 @@
+package gui.util;
+
+public class Constraints {
+	public static void setTextFieldInteger() {
+		
+	}
+	
+	public static void setTextFieldDouble() {
+		
+	}
+	
+	public static void setTextFieldMaxLength() {
+		
+	}
+}

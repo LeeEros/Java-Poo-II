@@ -1,0 +1,17 @@
+package gui.util;
+
+public class Constraints {
+	public static void setTextFieldInteger() {
+		txt.textProperty().addListener((obs, oldValue, newValue) -> {
+		if(newValue != null && !newValue.matches('\\d*'))	
+		}});
+	}
+	
+	public static void setTextFieldDouble() {
+		
+	}
+	
+	public static void setTextFieldMaxLength() {
+		
+	}
+}
