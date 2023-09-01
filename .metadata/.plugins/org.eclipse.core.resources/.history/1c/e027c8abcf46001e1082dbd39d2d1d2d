@@ -45,9 +45,5 @@ private String email;
 		this.email = email;
 	}
 
-	@Override
-	public String toString() {
-		return "Person [id =" + id + ", name =" + name + ", email = " + email + "]";
-	}
 
 }

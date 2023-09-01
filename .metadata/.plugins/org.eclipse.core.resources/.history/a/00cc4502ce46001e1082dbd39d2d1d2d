@@ -39,7 +39,7 @@ public class ViewController implements Initializable {
 				setText(empty ? "" : item.getName());
 			}
 		};
-		comboBox.setCellFactory(factory);
+		comboBox.setCellFactory(null);
 	}
 
 }
